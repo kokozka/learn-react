@@ -1,0 +1,193 @@
+{
+    "tableData": {
+        "rows": [{
+            "key": 1,
+            "name": "Tiger Nixon",
+            "position": "System Architect",
+            "office": "London",
+            "age": "61",
+            "date": "2011/04/25",
+            "salary": "$320"
+        },{
+            "key": 2,
+            "name": "John Doe",
+            "position": "Frontend",
+            "office": "Edinburgh",
+            "age": "38",
+            "date": "2011/04/25",
+            "salary": "$540"
+        },{
+            "key": 3,
+            "name": "James Bond",
+            "position": "Backend",
+            "office": "Edinburgh",
+            "age": "41",
+            "date": "2011/04/25",
+            "salary": "$650"
+        }]
+    },
+
+    "tableType": [{
+        "id": 1,
+        "table": {
+            "title": "Salaries",
+            "description": "Employes salaries",
+            "footer": "footer 1",
+            "staticBlock": "id_name",
+            "perpage": 20
+        },
+        "columns": [{
+            "title": "Name",
+            "dataIndex": "name",
+            "tooltip": "",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "text",
+            "show": true,
+            "ellipsis": true,
+            "order": 1,
+            "width": 150,
+            "filters": []
+        }, {
+            "title": "Position",
+            "dataIndex": "position",
+            "tooltip": "Job position",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "text",
+            "show": true,
+            "ellipsis": true,
+            "order": 2,
+            "width": 150,
+            "filters": [{
+                "text": "System Architect",
+                "value": "system architect"
+            }, {
+                "text": "Frontend",
+                "value": "frontend"
+            }, {
+                "text": "Backend",
+                "value": "backend"
+            }]
+        }, {
+            "title": "Office",
+            "dataIndex": "office",
+            "tooltip": "",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "text",
+            "show": true,
+            "ellipsis": true,
+            "order": 3,
+            "width": 200,
+            "filters": [{
+                "text": "London",
+                "value": "London"
+            }, {
+                "text": "New York",
+                "value": "New York"
+            }]
+        }, {
+            "title": "Age",
+            "dataIndex": "age",
+            "tooltip": "",
+            "sortable": false,
+            "sortType": "",
+            "type": "number",
+            "show": true,
+            "ellipsis": false,
+            "order": 4,
+            "width": 50,
+            "filters": []
+        }, {
+            "title": "Hired",
+            "dataIndex": "date",
+            "tooltip": "Onboarded to company",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "date",
+            "show": true,
+            "ellipsis": false,
+            "order": 5,
+            "width": 80,
+            "filters": []
+        }, {
+            "title": "Salary",
+            "dataIndex": "salary",
+            "tooltip": "Monthly salary",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "price",
+            "show": true,
+            "ellipsis": false,
+            "order": 6,
+            "width": 100,
+            "filters": []
+        }],
+        "rowActions": ["delete", "edit", "view"],
+        "topActions": ["create", "import", "export"]
+    }, {
+        "id": 2,
+        "table": {
+            "title": "Colleagues",
+            "description": "My Colleagues",
+            "footer": "footer 2",
+            "staticBlock": "id_name",
+            "perpage": 20
+        },
+        "columns": [{
+            "title": "Name",
+            "dataIndex": "name",
+            "tooltip": "",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "text",
+            "show": true,
+            "ellipsis": true,
+            "order": 1,
+            "width": 150,
+            "filters": []
+        }, {
+            "title": "Position",
+            "dataIndex": "position",
+            "tooltip": "Job position",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "text",
+            "show": true,
+            "ellipsis": true,
+            "order": 2,
+            "width": 150,
+            "filters": [{
+                "text": "System Architect",
+                "value": "system architect"
+            }, {
+                "text": "Frontend",
+                "value": "frontend"
+            }, {
+                "text": "Backend",
+                "value": "backend"
+            }]
+        }, {
+            "title": "Office",
+            "dataIndex": "office",
+            "tooltip": "",
+            "sortable": true,
+            "sortType": "asc",
+            "type": "text",
+            "show": true,
+            "ellipsis": true,
+            "order": 3,
+            "width": 200,
+            "filters": [{
+                "text": "London",
+                "value": "London"
+            }, {
+                "text": "New York",
+                "value": "New York"
+            }]
+        }],
+        "rowActions": ["delete", "edit", "view"],
+        "topActions": ["create", "import", "export"]
+    }]
+}
